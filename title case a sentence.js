@@ -2,21 +2,21 @@
  * Created by reliance on 30-06-2015.
  */
 var titleCase = function(str){
-  str = str.split(' ');
 
-  //str.forEach(function(foo){
-  //  var bar = foo.split('');
-  //  bar[0] = bar[0].toUpperCase();
-  //  var a = bar.join('')
-  //  return a ;
-  //});
 
-  for(var i=0; i<str.length; i++){
-    str[i] = str[i].charAt(0).toUpperCase();
-  }
+  str = str.toLowerCase();
+  var matches = str.replace(/\b(\w)/g, function(m){
+    return m.toUpperCase();
+  });
 
-  console.log(str);
+ if(matches.charAt(2) == matches.charAt(2).toUpperCase()){
+  matches =  matches.replace(matches.charAt(2), matches.charAt(2).toLowerCase());
+ }else{
+   return false;
+ }
+
+  return matches;
 }
 
-console.log(titleCase("this is pranu"));
+console.log(titleCase("I'm a little tea pot"));
 
