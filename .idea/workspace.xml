@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="625f0f56-467a-4d4e-98d7-80f7bdb2c53a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Misc. problems/COmapring characters of two strings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Misc. problems/chunking an array.js" afterPath="$PROJECT_DIR$/Misc. problems/chunking an array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Misc. problems/remove falsey values from array.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Functional Programming in Javascript.iws" />
@@ -69,13 +68,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="COmapring characters of two strings.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="COmapring characters of two strings.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Misc. problems/COmapring characters of two strings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75179">
+            <state vertical-scroll-proportion="-5.7272725">
               <caret line="23" column="1" selection-start-line="3" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc;n#mutation#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="remove falsey values from array.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Misc. problems/remove falsey values from array.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46539378">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding>
+                <element signature="n#!!doc;n#bouncer#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -112,6 +123,7 @@
         <option value="$PROJECT_DIR$/stacks Implementation/base-conversions.js" />
         <option value="$PROJECT_DIR$/Misc. problems/chunking an array.js" />
         <option value="$PROJECT_DIR$/Misc. problems/COmapring characters of two strings.js" />
+        <option value="$PROJECT_DIR$/Misc. problems/remove falsey values from array.js" />
       </list>
     </option>
   </component>
@@ -217,12 +229,7 @@
       <recent name="C:\Users\reliance\project\Functional Programming in Javascript\Misc. problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.COmapring characters of two strings.js">
-    <configuration default="false" name="chunking an array.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="chunking an array.js" working-dir="$PROJECT_DIR$">
-      <RunnerSettings RunnerId="Basic" />
-      <ConfigurationWrapper RunnerId="Basic" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.remove falsey values from array.js">
     <configuration default="false" name="list.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="stacks.js" working-dir="$PROJECT_DIR$/stacks Implementation">
       <RunnerSettings RunnerId="Basic" />
       <ConfigurationWrapper RunnerId="Basic" />
@@ -235,6 +242,9 @@
       <method />
     </configuration>
     <configuration default="false" name="COmapring characters of two strings.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="COmapring characters of two strings.js" working-dir="$PROJECT_DIR$/Misc. problems">
+      <method />
+    </configuration>
+    <configuration default="false" name="remove falsey values from array.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="remove falsey values from array.js" working-dir="$PROJECT_DIR$/Misc. problems">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -276,19 +286,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.chunking an array.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.list.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.base-conversions.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.chunking an array.js (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.COmapring characters of two strings.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.list.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.base-conversions.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.chunking an array.js (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.COmapring characters of two strings.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.remove falsey values from array.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.COmapring characters of two strings.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.chunking an array.js (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.base-conversions.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.list.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.chunking an array.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.remove falsey values from array.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.COmapring characters of two strings.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.chunking an array.js (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.base-conversions.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.list.js" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +325,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15763889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3243607" sideWeight="0.50555557" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3243607" sideWeight="0.50555557" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -345,13 +355,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Misc. problems/repeat a string.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Misc. problems/truncating a string.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -708,10 +711,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Misc. problems/COmapring characters of two strings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75179">
+        <state vertical-scroll-proportion="-5.7272725">
           <caret line="23" column="1" selection-start-line="3" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc;n#mutation#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Misc. problems/remove falsey values from array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46539378">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc;n#bouncer#0" expanded="false" />
           </folding>
         </state>
       </provider>
