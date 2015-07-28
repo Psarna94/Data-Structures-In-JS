@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="625f0f56-467a-4d4e-98d7-80f7bdb2c53a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stacks Implementation/base-conversions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stacks Implementation/stacks.js" afterPath="$PROJECT_DIR$/stacks Implementation/stacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Misc. problems/COmapring characters of two strings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Misc. problems/chunking an array.js" afterPath="$PROJECT_DIR$/Misc. problems/chunking an array.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Functional Programming in Javascript.iws" />
@@ -45,13 +45,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base-conversions.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base-conversions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stacks Implementation/base-conversions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9354839">
-              <caret line="55" column="60" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
               <folding>
                 <element signature="n#!!doc;n#Stack#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chunking an array.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Misc. problems/chunking an array.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+              <folding>
+                <element signature="n#!!doc;n#chunk#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="COmapring characters of two strings.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Misc. problems/COmapring characters of two strings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.75179">
+              <caret line="23" column="1" selection-start-line="3" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc;n#mutation#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -86,6 +110,8 @@
         <option value="$PROJECT_DIR$/Lists Implemetation/list.js" />
         <option value="$PROJECT_DIR$/stacks Implementation/stacks.js" />
         <option value="$PROJECT_DIR$/stacks Implementation/base-conversions.js" />
+        <option value="$PROJECT_DIR$/Misc. problems/chunking an array.js" />
+        <option value="$PROJECT_DIR$/Misc. problems/COmapring characters of two strings.js" />
       </list>
     </option>
   </component>
@@ -97,9 +123,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="24" />
     <option name="width" value="1440" />
-    <option name="height" value="803" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -124,8 +150,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,8 +182,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Functional Programming in Javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-in-JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Misc. problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,7 +207,7 @@
     <property name="editorconfig.notification" value="Applied .editorconfig settings" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -177,17 +217,7 @@
       <recent name="C:\Users\reliance\project\Functional Programming in Javascript\Misc. problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.base-conversions.js">
-    <configuration default="false" name="largest number from array of arrays.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="largest number from array of arrays.js" working-dir="$PROJECT_DIR$">
-      <RunnerSettings RunnerId="Basic" />
-      <ConfigurationWrapper RunnerId="Basic" />
-      <method />
-    </configuration>
-    <configuration default="false" name="truncating a string.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="truncating a string.js" working-dir="$PROJECT_DIR$">
-      <RunnerSettings RunnerId="Basic" />
-      <ConfigurationWrapper RunnerId="Basic" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.COmapring characters of two strings.js">
     <configuration default="false" name="chunking an array.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="chunking an array.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="Basic" />
       <ConfigurationWrapper RunnerId="Basic" />
@@ -199,6 +229,12 @@
       <method />
     </configuration>
     <configuration default="false" name="base-conversions.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="base-conversions.js" working-dir="$PROJECT_DIR$/stacks Implementation">
+      <method />
+    </configuration>
+    <configuration default="false" name="chunking an array.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="chunking an array.js" working-dir="$PROJECT_DIR$/Misc. problems">
+      <method />
+    </configuration>
+    <configuration default="false" name="COmapring characters of two strings.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="COmapring characters of two strings.js" working-dir="$PROJECT_DIR$/Misc. problems">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -240,19 +276,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.largest number from array of arrays.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.truncating a string.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.chunking an array.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.list.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.base-conversions.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.chunking an array.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.list.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.base-conversions.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.chunking an array.js (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.COmapring characters of two strings.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.base-conversions.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.list.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.chunking an array.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.truncating a string.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.largest number from array of arrays.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.COmapring characters of two strings.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.chunking an array.js (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.base-conversions.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.list.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.chunking an array.js" />
       </list>
     </recent_temporary>
   </component>
@@ -270,27 +306,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="803" extended-state="6" />
+    <frame x="0" y="24" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32833788" sideWeight="0.49722221" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3243607" sideWeight="0.49444443" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15763889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32833788" sideWeight="0.50277776" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3243607" sideWeight="0.50555557" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -309,20 +345,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="93" selection-start-line="0" selection-start-column="93" selection-end-line="0" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Misc. problems/repeat a string.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc;n#repeat#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -330,9 +356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#truncate#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -357,9 +380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#repeat#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -633,9 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc;n#repeat#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,19 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#truncate#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Misc. problems/chunking an array.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#chunk#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,10 +688,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stacks Implementation/base-conversions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9354839">
-          <caret line="55" column="60" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
           <folding>
             <element signature="n#!!doc;n#Stack#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Misc. problems/chunking an array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc;n#chunk#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Misc. problems/COmapring characters of two strings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75179">
+          <caret line="23" column="1" selection-start-line="3" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#mutation#0" expanded="false" />
           </folding>
         </state>
       </provider>

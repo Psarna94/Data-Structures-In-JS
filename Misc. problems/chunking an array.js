@@ -16,4 +16,4 @@ function chunk(arr, size) {
   return newArray;
 }
 
-console.log(chunk(['a', 'b', 'c', 'd','e','f'], 4));
+console.log(chunk(['a', 'b', 'c', 'd','e','f'], 2));
