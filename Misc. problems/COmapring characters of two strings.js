@@ -23,4 +23,4 @@ function mutation(arr) {
     }
 }
 
-console.log(mutation(['hey', 'hello']));
+console.log(mutation(['hey', 'hello']);
