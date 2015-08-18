@@ -67,7 +67,7 @@ function distribute(nums, queues, n, digit){
 function collect(){
   var i = 0;
   for(var digit = 0; digit<10; digit++){
-    while(!queues[digit].empty){
+    while(!queues[digit].empty()){
       nums[i++] = queues[digit].dequeue;
     }
   }
@@ -97,7 +97,7 @@ distribute(nums, queues, 10, 1);
 collect(queues, nums);
 console.log("after first sort");
 dispArray(nums);
-distribute(nums, queues, 10, 10);
-collect(queues, nums);
-console.log("after first sort");
-dispArray(nums);
+// distribute(nums, queues, 10, 10);
+// collect(queues, nums);
+// console.log("after first sort");
+// dispArray(nums);
