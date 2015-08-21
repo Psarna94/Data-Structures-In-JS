@@ -4,3 +4,4 @@ function HashTable(){
   this.showDistro = showDistro;
   this.put = put;
   // this.get = get;
+}
