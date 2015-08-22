@@ -33,8 +33,8 @@ function simpleHash(data){
 
 
 // put a value inside a hash table
-function put(data){
-  var pos = this.betterHash(data);
+function put(key,data){
+  var pos = this.betterHash(key);
   this.table[pos]=data;
 }
 
