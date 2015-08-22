@@ -38,6 +38,11 @@ function put(key,data){
   this.table[pos]=data;
 }
 
+function get(key) {
+return this.table[this.betterHash(key)];
+}
+
+
 function showDistro(){
   for(var i=0; i<this.table.length; i++){
     if(this.table[i] !== undefined){
