@@ -3,7 +3,7 @@ function Set(){
   this.add = add;
   this.remove = remove;
   this.union = union;
-  // this.intersect = intersect;
+  this.intersect = intersect;
   // this.subset = subset;
   // this.difference = difference;
   this.show = show;
@@ -44,7 +44,7 @@ function contains(data){
   }
 };
 
-
+// find the union between two sets
 function union(set){
     var tempSet = new Set();
     this.dataStore.forEach(function(i){
@@ -60,6 +60,18 @@ function union(set){
     return tempSet;
 }
 
+// finds the intersection between sets
+function intersect(set){
+  var tempSet = new Set();
+  this.dataStore.forEach(function(foo){
+    if (set.contains(foo)){
+      tempSet.add(foo);
+    }
+  })
+
+  return tempSet;
+}
+
 
 var cis = new Set();
 cis.add("Mike");
@@ -69,8 +81,7 @@ cis.add("Raymond");
 var dmp = new Set();
 dmp.add("Raymond");
 dmp.add("Cynthia");
-dmp.add("Jonathan");
-var it = new Set();
-it = cis.union(dmp);
+dmp.add("Bryan");
+it = cis.intersect(dmp);
 
 console.log(it.show());
