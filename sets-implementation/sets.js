@@ -3,10 +3,11 @@ function Set(){
   this.add = add;
   this.remove = remove;
   this.union = union;
-  this.intersect = intersect;
-  this.subset = subset;
-  this.difference = difference;
+  // this.intersect = intersect;
+  // this.subset = subset;
+  // this.difference = difference;
   this.show = show;
+  this.contains = contains;
 }
 
 // a set can only store unique members therefore applying a check
@@ -29,3 +30,47 @@ function remove(data){
     return true
   }
 };
+
+function show(){
+  return this.dataStore;
+}
+
+// Helper function to find if a data memebr is contained in te set
+function contains(data){
+  if(this.dataStore.indexOf(data)> -1){
+    return true;
+  }else{
+    return false;
+  }
+};
+
+
+function union(set){
+    var tempSet = new Set();
+    this.dataStore.forEach(function(i){
+      tempSet.add(i);
+    });
+
+    set.dataStore.forEach(function(foo){
+      if(!tempSet.contains(foo)){
+        tempSet.dataStore.push(foo)
+      }
+    })
+
+    return tempSet;
+}
+
+
+var cis = new Set();
+cis.add("Mike");
+cis.add("Clayton");
+cis.add("Jennifer");
+cis.add("Raymond");
+var dmp = new Set();
+dmp.add("Raymond");
+dmp.add("Cynthia");
+dmp.add("Jonathan");
+var it = new Set();
+it = cis.union(dmp);
+
+console.log(it.show());
