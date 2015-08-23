@@ -4,7 +4,7 @@ function Set(){
   this.remove = remove;
   this.union = union;
   this.intersect = intersect;
-  // this.subset = subset;
+  this.subset = subset;
   // this.difference = difference;
   this.show = show;
   this.contains = contains;
@@ -69,6 +69,32 @@ function intersect(set){
     }
   })
 
+  return tempSet;
+}
+
+// checks if a set is a subset of the other set
+function subset(set){
+  if(this.dataStore.length > set.dataStore.length){
+    return false;
+  }
+  else{
+    this.dataStore.forEach(function(foo){
+      if(!set.contains(foo)){
+        return false;
+      }
+    })
+  }
+  return true;
+}
+
+// return elements of sets which are in first set but not in second set
+functio difference(set){
+  var tempSet = new Set();
+  this.dataStore.forEach(function(foo){
+    if(!set.contains(foo)){
+      tempSat.add(foo);
+    }
+  })
   return tempSet;
 }
 
