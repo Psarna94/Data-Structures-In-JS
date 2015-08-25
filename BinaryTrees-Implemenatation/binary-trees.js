@@ -17,6 +17,8 @@ function BST(){
   this.root  = null;
   this.insert = insert;
   this.inOrder = inOrder;
+  this.preOrder = preOrder;
+  this.postOrder = postOrder;
 }
 
 // function to insert a node in the BST
@@ -50,6 +52,22 @@ function inOrder (node){
   }
 }
 
+function preOrder(node){
+  if(!(node==null)){
+    print(node.show()+" ");
+    preOrder(node.left);
+    preOrder(node.right);
+  }
+}
+
+function postOrder(node){
+  if(!(node==null)){
+    postOrder(node.left);
+    postOrder(node.right);
+    print(node.show()+" ")
+  }
+}
+
 var nums = new BST();
 nums.insert(23);
 nums.insert(45);
@@ -59,4 +77,4 @@ nums.insert(3);
 nums.insert(99);
 nums.insert(22);
 print("Inorder traversal: ");
-inOrder(nums.root)
+postOrder(nums.root)
