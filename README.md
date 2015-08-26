@@ -11,17 +11,17 @@ I followed Object Oriented Programming as described in [JavaScript: The Good Par
 To implement the code, I used [Node.js](https://nodejs.org/) on the command line. However Node.js does not have a very interactive shell, therefore I moved on to [SpiderMonkey](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey), which is a little hard to set up but has a richly interactive shell. Binary trees onwards I moved to SpiderMonkey.
 
 
-####The Project currently consists of the basic implemenation of the Following data structures:
-  1.Arrays
-  2.Lists
-  3.Stack
-  4.Queues
-  5.Linked Lists
-  6.Dictionaries
-  7.Sets
-  8.Hash-Tables
-  9.Binary Trees and Binary Search Trees (WIP)
-  10.Graphs (WIP)
+####The Project currently consists of the basic implementation of the Following data structures:
+1.Arrays
+2.Lists
+3.Stack
+4.Queues
+5.Linked Lists
+6.Dictionaries
+7.Sets
+8.Hash-Tables
+9.Binary Trees and Binary Search Trees (WIP)
+10.Graphs (WIP)
 The project also consists of some trivial problems in the misc. folder.
 
 This is still WIP and will be adding the solution to exercises mentioned after every chapter in DS with JS.
